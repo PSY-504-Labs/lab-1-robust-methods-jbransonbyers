@@ -1,0 +1,8 @@
+"0",""
+"0","# plot of histogram of the means"
+"0","ggplot(data.frame(results_mean$t), aes(x=results_mean.t)) +"
+"0","  geom_histogram(color='black',fill='white') +"
+"0","  geom_vline(xintercept = c(9.332, 10.564, 9.259, 10.526), color=c('magenta','magenta','cyan','cyan'), size=2) +"
+"0","  annotate('text', x=c(9.1, 10.35, 9.5, 10.75), y=c(150,150,150,150), label=c('CI Lower','CI Upper', 'BCA Lower','BCA Upper')) +"
+"0","  labs(title='Bootstrapped Mean Estimates with 95% Intervals', x='Mean Estimates', y='Count')"
+"0",""

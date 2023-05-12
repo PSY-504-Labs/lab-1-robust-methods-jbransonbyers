@@ -1,0 +1,2 @@
+"0","# plot the data"
+"0","ggplot(stars, aes(x=log.Te, y=log.light)) + geom_point() + labs(title=""Relationship between star tempurature and star brightness"", x=""Log Tempurature"", y = ""Log Light"") + theme_classic() + theme(plot.title = element_text(hjust = 0.5))"

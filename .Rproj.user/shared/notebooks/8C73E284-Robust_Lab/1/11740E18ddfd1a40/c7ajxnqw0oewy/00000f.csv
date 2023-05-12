@@ -1,0 +1,11 @@
+"0","# We can also calculate it this way"
+"0","correlation::correlation(stars, winsorize=0.2)"
+"1","[34m# Correlation Matrix (pearson-method)[39m
+
+Parameter1 | Parameter2 |    r |       95% CI | t(45) |      p
+--------------------------------------------------------------
+log.Te     |  log.light | 0.34 | [0.06, 0.57] |  2.46 | 0.018*
+
+p-value adjustment method: Holm (1979)
+Observations: 47
+"

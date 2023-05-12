@@ -1,0 +1,6 @@
+"0","library(tidyverse)"
+"0","library(broom)"
+"0","metrics = augment(study_lm)"
+"0","ggplot(metrics, aes(x=hours, y=score)) +"
+"0","  geom_point() +"
+"0","  stat_smooth(method = lm, se = FALSE)"

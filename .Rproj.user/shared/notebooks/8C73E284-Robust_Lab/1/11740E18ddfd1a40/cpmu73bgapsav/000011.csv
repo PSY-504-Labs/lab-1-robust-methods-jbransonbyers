@@ -1,0 +1,13 @@
+"0","library(easystats)"
+"2","[34m# Attaching packages: easystats 0.5.2[39m[34m ([39m[31mred[39m[34m = needs update)[39m
+[32m✔ [39m[30minsight    [39m [32m0.19.1[39m   [31m✖ [39m[30mdatawizard [39m [31m0.6.5 [39m
+[31m✖ [39m[30mbayestestR [39m [31m0.13.0[39m   [31m✖ [39m[30mperformance[39m [31m0.10.2[39m
+[32m✔ [39m[30meffectsize [39m [32m0.8.3 [39m   [32m✔ [39m[30mmodelbased [39m [32m0.8.6 [39m
+[31m✖ [39m[30msee        [39m [31m0.7.4 [39m   [31m✖ [39m[30mreport     [39m [31m0.5.6 [39m
+[33m
+Restart the R-Session and update packages in red with `easystats::easystats_update()`.
+[39m
+"
+"0","check_heteroscedasticity(robust_study_model)"
+"1","[32mOK: Error variance appears to be homoscedastic (p = 0.974).
+[39m"

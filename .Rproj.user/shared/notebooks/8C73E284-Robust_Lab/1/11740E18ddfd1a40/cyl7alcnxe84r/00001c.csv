@@ -1,0 +1,5 @@
+"0",""
+"0","ggplot(my_penguins, aes(x=sex, y=body_mass_g, color=sex)) +"
+"0","  geom_jitter() +"
+"0","  labs(title='Body Size by Sex', y='Body Mass')"
+"0",""

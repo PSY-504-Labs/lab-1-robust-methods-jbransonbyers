@@ -1,0 +1,5 @@
+"0","my_penguins <- penguins %>% "
+"0","  filter(species == ""Adelie"","
+"0","         !is.na(sex), "
+"0","         island == ""Torgersen"") "
+"0","my_penguins"

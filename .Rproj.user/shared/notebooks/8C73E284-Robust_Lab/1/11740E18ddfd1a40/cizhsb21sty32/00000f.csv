@@ -1,0 +1,27 @@
+"0","# calculate ci's"
+"0","mean_results_ci = boot.ci(results_mean, type=""perc"", R=1000)"
+"0","mean_results_ci"
+"1","BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+"
+"1","Based on 1000 bootstrap replicates
+
+"
+"1","CALL : 
+"
+"1","boot.ci(boot.out = results_mean, type = ""perc"", R = 1000)
+"
+"1","
+Intervals : "
+"1","
+Level"
+"1"," "
+"1","    Percentile     "
+"1","
+95%  "
+"1"," "
+"1","( 9.332,"
+"1"," "
+"1","10.564 )  "
+"1","
+Calculations and Intervals on Original Scale
+"

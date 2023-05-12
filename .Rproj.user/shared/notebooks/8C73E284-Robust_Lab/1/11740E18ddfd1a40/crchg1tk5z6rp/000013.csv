@@ -1,0 +1,6 @@
+"0","diff_mean = boot(pdiff0, mean_fun, R=1000)"
+"0",""
+"0","# plot of histogram of the means"
+"0","ggplot(data.frame(diff_mean$t), aes(x=diff_mean.t)) +"
+"0","  geom_histogram(color='black',fill='white') "
+"0",""

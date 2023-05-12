@@ -1,0 +1,8 @@
+"0",""
+"0","# Calculate Pearson Correlation Coefficient"
+"0","correlation = cor(stars$log.Te, stars$log.light)"
+"0","correlation"
+"1","[1]"
+"1"," -0.2104133"
+"1","
+"

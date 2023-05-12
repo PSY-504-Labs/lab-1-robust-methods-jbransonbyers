@@ -1,0 +1,27 @@
+"0","# we can now use the bootstrap to calc confidence intervals"
+"0","x1_bac = boot.ci(chili_x1, type=""bca"", R=1000)"
+"0","x1_bac"
+"1","BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+"
+"1","Based on 1000 bootstrap replicates
+
+"
+"1","CALL : 
+"
+"1","boot.ci(boot.out = chili_x1, type = ""bca"", R = 1000)
+"
+"1","
+Intervals : "
+"1","
+Level"
+"1"," "
+"1","      BCa          "
+"1","
+95%  "
+"1"," "
+"1","(-0.2346,"
+"1"," "
+"1","-0.0606 )  "
+"1","
+Calculations and Intervals on Original Scale
+"

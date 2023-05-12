@@ -1,0 +1,32 @@
+"0",""
+"0","# define a median function"
+"0","med_fun = function(data, indices) {"
+"0","  return(median(data[indices]))"
+"0","} # end fun"
+"0",""
+"0","results_med = boot(data, med_fun, R=1000)"
+"0","results_med"
+"1","
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+"
+"1","
+Call:
+"
+"1","boot(data = data, statistic = med_fun, R = 1000)
+"
+"1","
+
+Bootstrap Statistics :
+"
+"1","   "
+"1"," original"
+"1","     bias  "
+"1","  std. error"
+"1","
+t1*"
+"1"," 9.947068"
+"1"," 0.08333787"
+"1","   0.4129688"
+"1","
+"

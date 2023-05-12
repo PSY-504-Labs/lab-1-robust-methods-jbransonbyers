@@ -1,0 +1,35 @@
+"0",""
+"0","set.seed(1234)"
+"0","data = c(8.453532, 10.025041, 11.495339, 9.367600, 8.333229, 9.788753, 10.883344, 10.543059, 9.869095, 10.799819)"
+"0",""
+"0","# define a mean function"
+"0","mean_fun = function(data, indices) {"
+"0","  return(mean(data[indices]))"
+"0","} # end fun"
+"0",""
+"0","results_mean = boot(data, mean_fun, R=1000)"
+"0","results_mean"
+"1","
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+"
+"1","
+Call:
+"
+"1","boot(data = data, statistic = mean_fun, R = 1000)
+"
+"1","
+
+Bootstrap Statistics :
+"
+"1","   "
+"1"," original"
+"1","      bias  "
+"1","  std. error"
+"1","
+t1*"
+"1"," 9.955881"
+"1"," 0.003788918"
+"1","   0.3153823"
+"1","
+"

@@ -1,0 +1,5 @@
+"0",""
+"0","# visualize the data"
+"0","ggplot(chili, aes(x=LENGTH, y=HEAT)) +"
+"0","  geom_point()"
+"0",""

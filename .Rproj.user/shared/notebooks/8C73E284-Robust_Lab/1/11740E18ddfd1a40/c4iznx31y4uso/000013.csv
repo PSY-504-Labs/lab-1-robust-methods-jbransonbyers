@@ -1,0 +1,4 @@
+"0","#read data.table to read in"
+"0","chili = read.delim(""https://raw.githubusercontent.com/jgeller112/psy504-advanced-stats/main/slides/03-Robust_Methods/data/chillis.csv"")"
+"0","chili = select(chili, c('LENGTH','HEAT'))"
+"0","head(chili)"

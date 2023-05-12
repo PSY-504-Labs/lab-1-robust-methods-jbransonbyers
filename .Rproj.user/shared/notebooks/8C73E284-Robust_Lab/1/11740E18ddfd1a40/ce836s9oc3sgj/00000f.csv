@@ -1,0 +1,27 @@
+"0",""
+"0","diff_mean_bac = boot.ci(diff_mean, type=""bca"", R=1000)"
+"0","diff_mean_bac"
+"1","BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+"
+"1","Based on 1000 bootstrap replicates
+
+"
+"1","CALL : 
+"
+"1","boot.ci(boot.out = diff_mean, type = ""bca"", R = 1000)
+"
+"1","
+Intervals : "
+"1","
+Level"
+"1"," "
+"1","      BCa          "
+"1","
+95%  "
+"1"," "
+"1","(-3.0,"
+"1"," "
+"1"," 0.6 )  "
+"1","
+Calculations and Intervals on Original Scale
+"

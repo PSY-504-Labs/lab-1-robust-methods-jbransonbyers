@@ -1,0 +1,2 @@
+"0","# plot of histogram of the means"
+"0","hist(results_med$t)"

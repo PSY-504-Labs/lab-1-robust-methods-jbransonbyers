@@ -1,0 +1,2 @@
+"0","ggplot(data.frame(chili_x1$t), aes(x=chili_x1.t)) +"
+"0","  geom_histogram(color='black',fill='white') "
